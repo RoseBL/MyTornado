@@ -24,7 +24,7 @@ if __name__ == '__main__':
 
     # 配置日志路径
     logging.basicConfig(level=logging.DEBUG, filename=config.log_path)
-    # test
+    # test git commit
     # 链接epoll，启动服务
     print('Tornado服务器启动...')
     tornado.ioloop.IOLoop.current().start()
